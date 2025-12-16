@@ -139,7 +139,7 @@ void ModeAoafllow::update()
 
     // 6. 执行器输出
     _set_actuators(control_out);
-
+    //1
     // 7. 调试输出
     // _send_debug_info(now_ms, filtered_dist1, filtered_angle1, control_out);
 }
